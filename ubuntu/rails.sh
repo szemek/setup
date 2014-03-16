@@ -17,11 +17,12 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~
 source ~/.bashrc
 
 echo "Install Ruby"
-rvm install 1.9.3
-rvm use 1.9.3 --default
+rvm install 2.1.1
+rvm use 2.1.1 --default
 
-echo "Don't install & generate documentation"
-echo "install: --no-rdoc --no-ri\nupdate:  --no-rdoc --no-ri" >> ~/.gemrc
+echo "Skip documentation"
+echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
+gem update --system
 gem install bundler
 gem install rails
