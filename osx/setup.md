@@ -9,6 +9,12 @@
 
 ### Useful commands
 
+#### Symbolic link for Sublime Text 3
+
+```
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
+```
+
 #### Changing default shell
 
 ```
