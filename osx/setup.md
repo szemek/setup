@@ -26,3 +26,9 @@ chsh -s /bin/zsh
 ```
 brew install tree
 ```
+
+#### Htop command
+
+```
+brew install htop
+```
