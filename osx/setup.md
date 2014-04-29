@@ -20,3 +20,9 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 ```
 chsh -s /bin/zsh
 ```
+
+#### Tree command
+
+```
+brew install tree
+```
