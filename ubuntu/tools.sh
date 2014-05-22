@@ -4,7 +4,7 @@ set -e
 ### Tools
 sudo apt-get install git git-core gitg curl vim zsh nautilus-open-terminal \
   compizconfig-settings-manager compiz-plugins-default compiz-plugins-main \
-  synaptic autojump -y
+  synaptic autojump exuberant-ctags -y
 
 # janus
 curl -Lo- https://bit.ly/janus-bootstrap | bash
