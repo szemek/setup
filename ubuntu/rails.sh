@@ -12,13 +12,13 @@ sudo apt-get install build-essential bison openssl libreadline6 \
   libmagickwand-dev libmagickcore-dev libmysqlclient-dev --fix-missing -y
 
 echo "Install RVM (Ruby Version Manager)"
-curl -L get.rvm.io | bash -s stable
+curl -sSL https://get.rvm.io | bash -s stable
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
 source ~/.bashrc
 
 echo "Install Ruby"
-rvm install 2.1.1
-rvm use 2.1.1 --default
+rvm install 2.1.2
+rvm use 2.1.2 --default
 
 echo "Skip documentation"
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
