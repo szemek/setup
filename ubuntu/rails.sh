@@ -9,7 +9,8 @@ sudo apt-get install build-essential bison openssl libreadline6 \
   libreadline6-dev curl git git-core zlib1g zlib1g-dev libssl-dev libyaml-dev \
   libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf \
   libc6-dev ncurses-dev automake libtool nodejs libpq-dev imagemagick \
-  libmagickwand-dev libmagickcore-dev libmysqlclient-dev --fix-missing -y
+  gawk libgdbm-dev libffi-dev libmagickwand-dev libmagickcore-dev \
+  libmysqlclient-dev --fix-missing -y
 
 echo "Install RVM (Ruby Version Manager)"
 curl -sSL https://get.rvm.io | bash -s stable
