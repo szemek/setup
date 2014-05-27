@@ -1,0 +1,43 @@
+syntax enable
+
+if has("gui_running")
+  set background=dark
+  colorscheme solarized
+  let g:solarized_contrast="high"    "default value is normal
+  let g:solarized_visibility="high"    "default value is normal
+  "set guioptions-=m  "remove menu bar
+  "set guioptions-=T  "remove toolbar
+  set guioptions-=r  "remove right-hand scroll bar
+else
+endif
+
+"autocmd VimEnter * NERDTree
+"autocmd BufEnter * NERDTreeMirror
+
+imap <C-t> <ESC>:tabnew<CR>
+map <C-t> <ESC>:tabnew<CR>
+
+imap <C-n> <ESC>:NERDTreeToggle<CR>
+map <C-n> <ESC>:NERDTreeToggle<CR>
+
+"map <Left>  :echo "Use H"<cr>
+"map <Right> :echo "Use L"<cr>
+"map <Up>    :echo "Use K"<cr>
+"map <Down>  :echo "Use J"<cr>
+
+map <leader>P "+P
+map <leader>p "+p
+map <leader>Y "+Y
+map <leader>y "+y
+
+imap <C-s> <ESC>:w<CR>
+map <C-s> <ESC>:w<CR>
+
+imap <C-y> <ESC>:%y+<CR>
+map <C-y> <ESC>:%y+<CR>
+
+ca Wqa wqa
+ca WQ wq
+ca Wq wq
+ca W w
+ca Q q
