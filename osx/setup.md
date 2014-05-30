@@ -7,6 +7,7 @@
   * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
   * [janus](https://github.com/carlhuda/janus)
   * [f.lux](https://justgetflux.com/)
+  * [Sublime Text 3](http://www.sublimetext.com/3)
 
 ### Useful commands
 
