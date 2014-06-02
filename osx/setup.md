@@ -8,6 +8,7 @@
   * [janus](https://github.com/carlhuda/janus)
   * [f.lux](https://justgetflux.com/)
   * [Sublime Text 3](http://www.sublimetext.com/3)
+  * [hub](https://github.com/github/hub)
 
 ### Useful commands
 
