@@ -36,4 +36,8 @@ alias gs='git status'
 export ACK_OPTIONS='--ignore-dir=node_modules'
 export BUNDLER_EDITOR=vim
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+
 local ret_status="%(?:%{$fg_bold[red]%}➜ :%{$fg_bold[red]%}➜ %s)"
