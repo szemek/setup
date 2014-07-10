@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -e
 
 echo "Update packages. Ask for your password."
 sudo apt-get update -y
@@ -14,11 +13,13 @@ sudo apt-get install build-essential bison openssl libreadline6 \
 
 echo "Install RVM (Ruby Version Manager)"
 curl -sSL https://get.rvm.io | bash -s stable
+source "$HOME/.rvm/scripts/rvm"
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
 source ~/.bashrc
 
 echo "Install Ruby"
 rvm install 2.1.2
+source "$HOME/.rvm/scripts/rvm"
 rvm use 2.1.2 --default
 
 echo "Skip documentation"
