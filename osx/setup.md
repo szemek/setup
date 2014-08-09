@@ -36,3 +36,11 @@ brew install tree
 ```
 brew install htop
 ```
+
+#### Highlight command
+
+```
+brew install highlight
+```
+
+[Highlight documentation](http://www.andre-simon.de/doku/highlight/en/highlight.php)
