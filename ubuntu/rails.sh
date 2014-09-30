@@ -21,9 +21,9 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~
 source ~/.bashrc
 
 echo "Install Ruby"
-rvm install 2.1.2
+rvm install 2.1.3
 source "$HOME/.rvm/scripts/rvm"
-rvm use 2.1.2 --default
+rvm use 2.1.3 --default
 
 echo "Skip documentation"
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
