@@ -9,7 +9,7 @@
   * [f.lux](https://justgetflux.com/)
   * [Sublime Text 3](http://www.sublimetext.com/3)
   * [hub](https://github.com/github/hub)
-  * [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/)
+  * [Karabiner](https://pqrs.org/osx/karabiner/)
 
 ### Useful commands
 
