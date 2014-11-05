@@ -10,6 +10,7 @@
   * [Sublime Text 3](http://www.sublimetext.com/3)
   * [hub](https://github.com/github/hub)
   * [Karabiner](https://pqrs.org/osx/karabiner/)
+  * [GitX](http://gitx.frim.nl/index.html)
 
 ### Useful commands
 
