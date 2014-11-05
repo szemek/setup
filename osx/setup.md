@@ -25,6 +25,12 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 chsh -s /bin/zsh
 ```
 
+#### Change computer name
+
+```
+sudo scutil --set HostName [NewHostNameHere]
+```
+
 #### Tree command
 
 ```
