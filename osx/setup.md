@@ -51,3 +51,9 @@ brew install highlight
 ```
 
 [Highlight documentation](http://www.andre-simon.de/doku/highlight/en/highlight.php)
+
+#### Install Command Line Developer Tools
+
+```
+xcode-select --install
+```
