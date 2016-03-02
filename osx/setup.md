@@ -11,6 +11,7 @@
   * [hub](https://github.com/github/hub)
   * [Karabiner](https://pqrs.org/osx/karabiner/)
   * [GitX](http://gitx.frim.nl/index.html)
+  * [MacDown](http://macdown.uranusjr.com/)
 
 ### Useful commands
 
