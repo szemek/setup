@@ -10,7 +10,7 @@ sudo apt-get install build-essential bison openssl libreadline6 \
   libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf \
   libc6-dev ncurses-dev automake libtool nodejs libpq-dev imagemagick \
   gawk libgdbm-dev libffi-dev libmagickwand-dev libmagickcore-dev \
-  libmysqlclient-dev --fix-missing -y
+  libmysqlclient-dev libgmp-dev --fix-missing -y
 exit 0
 +END
 
