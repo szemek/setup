@@ -33,15 +33,10 @@ chsh -s /bin/zsh
 sudo scutil --set HostName [NewHostNameHere]
 ```
 
-#### Tree command
+#### tree, htop
 
 ```
 brew install tree
-```
-
-#### Htop command
-
-```
 brew install htop
 ```
 
@@ -57,4 +52,11 @@ brew install highlight
 
 ```
 xcode-select --install
+```
+
+### Git extensions
+
+```
+gem install git-up
+brew install git-extras
 ```
