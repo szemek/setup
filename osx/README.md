@@ -60,3 +60,7 @@ xcode-select --install
 gem install git-up
 brew install git-extras
 ```
+
+### Other useful stuff
+
+[Color Themes for JetBrains' IDEs](http://color-themes.com/?view=index)
