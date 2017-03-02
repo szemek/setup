@@ -12,6 +12,7 @@
   * [Karabiner](https://pqrs.org/osx/karabiner/)
   * [GitX](http://gitx.frim.nl/index.html)
   * [MacDown](http://macdown.uranusjr.com/)
+  * [Bear](http://www.bear-writer.com/)
 
 ### Useful commands
 
