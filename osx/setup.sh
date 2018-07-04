@@ -11,8 +11,10 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install flux
 brew cask install sublime-text
+brew cask install karabiner-elements
 brew install wget
 brew install aria2
+brew install autojump
 
 # install oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
