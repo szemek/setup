@@ -27,6 +27,9 @@ brew install tree
 brew install htop
 brew install gpg2
 brew install pwgen
+brew cask install rowanj-gitx
+brew cask install visual-studio-code
+brew cask install sequel-pro
 
 # install janus https://github.com/carlhuda/janus
 curl -L https://bit.ly/janus-bootstrap | bash
