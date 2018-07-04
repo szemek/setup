@@ -12,6 +12,8 @@ brew cask install spotify
 brew cask install flux
 brew cask install sublime-text
 brew cask install karabiner-elements
+# brew cask install 1password
+# brew cask install docker
 brew install wget
 brew install aria2
 brew install autojump
