@@ -17,6 +17,7 @@ brew cask install karabiner-elements
 brew install wget
 brew install aria2
 brew install autojump
+brew install watch
 
 # install oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
