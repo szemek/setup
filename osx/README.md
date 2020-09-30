@@ -1,18 +1,18 @@
 ### Tools, programs
-  * [Spectacle App](http://spectacleapp.com)
-  * [Iterm2](http://www.iterm2.com)
+  * [Spectacle App](https://www.spectacleapp.com/)
+  * [Iterm2](https://www.iterm2.com/)
   * XCode
-  * [RVM](http://rvm.io/)
-  * [Homebrew](http://brew.sh/)
-  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+  * [RVM](https://rvm.io/)
+  * [Homebrew](https://brew.sh/)
+  * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
   * [janus](https://github.com/carlhuda/janus)
   * [f.lux](https://justgetflux.com/)
-  * [Sublime Text 3](http://www.sublimetext.com/3)
+  * [Sublime Text 3](https://www.sublimetext.com/3)
   * [hub](https://github.com/github/hub)
-  * [Karabiner](https://pqrs.org/osx/karabiner/)
+  * [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
   * [GitX](http://gitx.frim.nl/index.html)
-  * [MacDown](http://macdown.uranusjr.com/)
-  * [Bear](http://www.bear-writer.com/)
+  * [MacDown](https://macdown.uranusjr.com/)
+  * [Bear](https://bear.app/)
 
 ### Useful commands
 
