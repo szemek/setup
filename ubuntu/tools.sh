@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-### Tools
-bash << +END
-sudo apt-get install git git-core gitg curl vim zsh nautilus-open-terminal \
-  compizconfig-settings-manager compiz-plugins-default compiz-plugins-main \
-  synaptic autojump exuberant-ctags tree htop -y
-exit 0
-+END
+# install VirtualBox Guest Additions prerequisites
+sudo apt-get install gcc make perl -y
 
-# janus
-source "$HOME/.rvm/scripts/rvm"
-curl -Lo- https://bit.ly/janus-bootstrap | bash
-# oh-my-zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+# install basic tools
+sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt-get update
+sudo apt-get install git git-core gitg curl vim zsh autojump tree htop -y
+
+# set zsh as a default shell and install oh-my-zsh
+sudo chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install Janus: Vim distribution
+curl -L https://bit.ly/janus-bootstrap | bash
