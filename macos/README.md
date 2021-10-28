@@ -1,5 +1,5 @@
 ### Tools, programs
-  * [Spectacle App](https://www.spectacleapp.com/)
+  * [Rectangle](https://rectangleapp.com/)
   * [Iterm2](https://www.iterm2.com/)
   * XCode
   * [RVM](https://rvm.io/)
