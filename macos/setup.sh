@@ -3,20 +3,27 @@
 # install brew https://brew.sh/
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install applications
-brew cask install google-chrome
-brew cask install firefox
-brew cask install iterm2
-brew cask install rectangle
-brew cask install spotify
-brew cask install flux
-brew cask install sublime-text
-brew cask install karabiner-elements
-# brew cask install 1password
-# brew cask install docker
+# browsers
+brew install google-chrome
+brew install firefox
+
+# editors, IDEs
+brew install sublime-text
+brew install visual-studio-code
+brew install pycharm-ce
+
+
+brew install iterm2
+brew install rectangle
+brew install spotify
+brew install flux
+
+brew install karabiner-elements
+# brew install docker
 brew install wget
 brew install aria2
 brew install autojump
+brew install fzf
 brew install watch
 
 # install oh-my-zsh https://github.com/ohmyzsh/ohmyzsh
@@ -27,10 +34,15 @@ brew install hub
 brew install tree
 brew install htop
 brew install gpg2
+brew install rowanj-gitx
+brew install sequel-pro
+
 brew install pwgen
-brew cask install rowanj-gitx
-brew cask install visual-studio-code
-brew cask install sequel-pro
+brew install bitwarden
+
+brew install pyenv
+brew install jenv
+brew install tfenv
 
 # install janus https://github.com/carlhuda/janus
 curl -L https://bit.ly/janus-bootstrap | bash
