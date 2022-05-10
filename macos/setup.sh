@@ -52,5 +52,5 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 curl -sSL https://get.rvm.io | bash -s stable
 
 # symlink
-ln -s /usr/local/bin/gpg /usr/local/bin/gpg2
+ln -s /opt/homebrew/bin/gpg /opt/homebrew/bin/gpg2
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
