@@ -1,3 +1,7 @@
+### Audio, video
+
+  * [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+
 ### Tools, programs
   * [Rectangle](https://rectangleapp.com/)
   * [Iterm2](https://www.iterm2.com/)
