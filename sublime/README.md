@@ -3,8 +3,8 @@
 * [Package Control](https://packagecontrol.io/)
 * AdvancedNewFile
 * AlignTab
-* CTags
 * BracketHighlighter
+* [Diffy](https://github.com/zsong/diffy)
 * Git
 * GitGutter
 * GitHubinator
